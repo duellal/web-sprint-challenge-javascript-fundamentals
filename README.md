@@ -54,6 +54,7 @@ Closure is when a function reaches outside of it's scope into a parent function'
 4) New Binding: "this" refers to a newly created Object; if a function is invoked with a constructor function, the "this" keyword refers to the newly created Object. You can either pass arguments in individually or as a single object.
 
 5. Why do we need super() in an extended class?
+
 We need super(), because it works with extend to do what .call() and Object.create() do when using the prototype method - they make a copy of the function and any attributes or functions associated with the copied function.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
