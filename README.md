@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
+We need super(), because it works with extend to do what .call() and Object.create() do when using the prototype method - they make a copy of the function and any attributes or functions associated with the copied function.
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
