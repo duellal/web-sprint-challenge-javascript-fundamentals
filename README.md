@@ -26,32 +26,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
-.map() returns a new array and is used for converting data in an array; it needs a return statement to work. It loops over the original array and puts what we put in the return statement into the new array. 
-
-.reduce() returns a single value and is used mostly for getting a sum or product in an array. It needs two parameters (accumulator, item) and does not manipulate the original array. 
-
-.filter() is used to comb through an array and get the intended result(s) into a new array. This method does not manipulate the original array and it does return a new array. It filters results based on if the statement provided is true or false - if it's true, it filters into the new array, and if it's false, it gets omitted. 
-
 2. Explain the difference between a callback and a higher order function.
-
-Higher order functions recieve callback functions as arguments. Callback functions are put into higher order functions as arguments.
 
 3. What is closure?
 
-Closure is when a function reaches outside of it's scope into a parent function's scope to get information that it needs, usually a variable. 
-
 4. Describe the four rules of the 'this' keyword.
-
-1) Window Binding: if no other rules apply, "this" keyword defaults to the window unless you are in strict mode, then it will return undefined. 
-
-2) Implicit Binding: when a function is invoked, the left of the dot (.) is where it can find what it's looking for - this is what the "this" will be referring to 
-
-3) Explicit Binding: forces a function to use a certian object as its "this". It is applied by using .call(), .bind(), and .apply()
-- .call(): immediately invokes the function and you pass arguments in individually
-- .bind(): returns a new function that is a copy of the original and can be invoked later, and you pass arguments in individually
-- .apply(): immediately invokes the function and you pass in the arguments as an array
-
-4) New Binding: "this" refers to a newly created Object; if a function is invoked with a constructor function, the "this" keyword refers to the newly created Object. You can either pass arguments in individually or as a single object.
 
 5. Why do we need super() in an extended class?
 
